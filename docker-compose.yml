@@ -55,7 +55,7 @@ services:
 
   cloudflared:
     profiles: ["prod"]
-    image: cloudflare/cloudflared:2026.4.1
+    image: cloudflare/cloudflared:latest
     container_name: sealnote-cloudflared
     restart: unless-stopped
     depends_on:
